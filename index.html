@@ -43,10 +43,19 @@
         </table>
         <h1>Book Now</h1>
         <br>
-    Name:<input type="text"">
-    Email:<input type="text" >
-    Phone:<input type="text">
-    <input type="Submit">
+    <form action="processform.html" method="get">
+        <label for="name">Name:</label>
+        <input id="name" name="name" type="text" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" required>
+        <br><br>
+        <label for="phone">Phone:</label>
+        <input id="phone" name="phone" type="tel">
+        <br><br>
+    
+        <input type="submit" value="Book now">
+    </form>
         <br>
         <p> Contact us at: info@laundrywallah.com</p>
     </body>
